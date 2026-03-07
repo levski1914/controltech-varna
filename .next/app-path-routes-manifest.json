@@ -1,0 +1,11 @@
+{
+  "/(legal)/cookies/page": "/cookies",
+  "/(legal)/merchant-info/page": "/merchant-info",
+  "/(legal)/privacy/page": "/privacy",
+  "/(legal)/service-terms/page": "/service-terms",
+  "/(legal)/service-warranty/page": "/service-warranty",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

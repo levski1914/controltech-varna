@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/full%20stack%20developer/JobPortal/Electronic%20repair/controltech-varna/app/page.tsx"],"sourcesContent":["import Navbar from \"@/components/layout/navbar\";\nimport Hero from \"@/components/sections/hero\";\nimport Services from \"@/components/sections/services\";\nimport Pricing from \"@/components/sections/pricing\";\nimport About from \"@/components/sections/about\";\nimport Contact from \"@/components/sections/contact\";\nimport Footer from \"@/components/layout/footer\";\nimport Image from \"next/image\";\nimport FloatingContact from \"@/components/ui/floating-contact\";\n\nexport default function Home() {\n  return (\n    <>\n    \n    <Navbar />\n        <main>\n          <Hero />\n          <Services />\n          <Pricing />\n          <About />\n          <Contact />\n        </main>\n        <Footer />\n         <FloatingContact />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAUe,SAAS;IACtB,qBACE;;0BAEA,8OAAC;;;;;0BACG,8OAAC;;kCACC,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;;;;;;;0BAEH,8OAAC;;;;;0BACA,8OAAC;;;;;;;AAGV"}}]
+}

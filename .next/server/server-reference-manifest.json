@@ -1,0 +1,21 @@
+{
+  "node": {
+    "605dc59f2cd30f0f9c89d2bc1d0a81948a2d6bf771": {
+      "workers": {
+        "app/page": {
+          "moduleId": 95582,
+          "async": false,
+          "exportedName": "submitContactForm",
+          "filename": "actions/contact.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "actions/contact.ts",
+      "exportedName": "submitContactForm"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "NBcBYdNteprJfoy0UrCRXm4/xy+g5D8/xVYcSKjDy24="
+}
