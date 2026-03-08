@@ -59,7 +59,7 @@ export default function Hero() {
 
             <div className="section-card p-4">
               <div className="text-2xl font-semibold text-cyan-300">
-                24 ч / 12.28 €
+                24ч 30 лв / 15.34 €
               </div>
               <div className="mt-1 text-sm text-slate-400">
                 Спешна диагностика
