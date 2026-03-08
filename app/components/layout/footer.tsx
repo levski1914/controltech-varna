@@ -47,9 +47,10 @@ export default function Footer() {
             Гаранция за сервизни услуги
           </a>
         </div>
-        <div className="text-sm text-slate-500">
-          © {new Date().getFullYear()} ControlTech Varna
-        </div>
+      </div>
+      <div className="text-sm text-slate-500 border-t border-white/10  text-center">
+        © {new Date().getFullYear()} ControlTech Varna
+        <p>Web site produced by ControlTech Varna</p>
       </div>
     </footer>
   );

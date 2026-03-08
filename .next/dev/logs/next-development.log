@@ -3307,3 +3307,5 @@ https://nextjs.org/docs/messages/module-not-found
 [47:42:28.765] Server  ERROR   ⨯ ReferenceError: formatDualPrice is not defined
 [47:42:30.152] Browser ERROR   uncaughtError: ReferenceError: formatDualPrice is not defined
 [47:42:37.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[49:54:49.664] Server  LOG     ✓ Compiled in 169ms
+[49:55:30.564] Server  LOG     ✓ Compiled in 35ms

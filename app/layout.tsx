@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     "профилактика лаптоп Варна",
     "SSD upgrade Варна",
   ],
+  verification: {
+    google: "pc-USx5RpkDZ1Esm91fiynBX75ANQZPre4pwsItPGHg",
+  },
+
   openGraph: {
     title: "ControlTech Varna | Компютърен сервиз във Варна",
     description:
