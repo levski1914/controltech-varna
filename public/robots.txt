@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://controltech-varna.netlify.app
+
+# Sitemaps
+Sitemap: https://controltech-varna.netlify.app/sitemap.xml
