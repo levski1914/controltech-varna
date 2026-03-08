@@ -40,21 +40,27 @@ export default function Hero() {
 
           <div className="mt-12 grid gap-4 sm:grid-cols-3">
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">20 лв</div>
+              <div className="text-2xl font-semibold text-cyan-300">
+                20 лв / 10.23 €
+              </div>
               <div className="mt-1 text-sm text-slate-400">
                 Диагностика без ремонт
               </div>
             </div>
 
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">89 лв</div>
+              <div className="text-2xl font-semibold text-cyan-300">
+                89 лв / 45.50 €
+              </div>
               <div className="mt-1 text-sm text-slate-400">
                 Пакет „Компютърът ми е бавен“
               </div>
             </div>
 
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">24 ч</div>
+              <div className="text-2xl font-semibold text-cyan-300">
+                24 ч / 12.28 €
+              </div>
               <div className="mt-1 text-sm text-slate-400">
                 Спешна диагностика
               </div>

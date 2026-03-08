@@ -1,4 +1,5 @@
 import { conditions, extras, packages, services } from "@/data/site";
+import { formatDualPrice } from "@/lib/currency";
 
 export default function Pricing() {
   return (
@@ -59,7 +60,7 @@ export default function Pricing() {
 
                   <div className="mt-4 flex items-end gap-2">
                     <span className="text-4xl font-bold text-cyan-300">
-                      {pkg.price}
+                      {formatDualPrice(pkg.price)}
                     </span>
                   </div>
 
@@ -112,7 +113,7 @@ export default function Pricing() {
                   >
                     <span className="text-slate-200">{item.name}</span>
                     <span className="text-base font-semibold text-cyan-300">
-                      {item.price}
+                      {formatDualPrice(item.price)}
                     </span>
                   </div>
                 ))}
@@ -133,7 +134,7 @@ export default function Pricing() {
                 >
                   <span className="text-slate-200">{item.name}</span>
                   <span className="font-semibold text-cyan-300">
-                    {item.price}
+                    {formatDualPrice(item.price)}
                   </span>
                 </div>
               ))}
