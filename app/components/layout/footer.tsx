@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 py-10">
@@ -28,24 +30,24 @@ export default function Footer() {
           <span>Варна, България</span>
         </div>
         <div className="flex flex-col gap-2 text-sm text-slate-400">
-          <a href="/privacy" className="hover:text-cyan-300">
+          <Link href="/privacy" className="hover:text-cyan-300">
             Политика за поверителност
-          </a>
+          </Link>
 
-          <a href="/cookies" className="hover:text-cyan-300">
+          <Link href="/cookies" className="hover:text-cyan-300">
             Политика за бисквитки
-          </a>
+          </Link>
 
-          <a href="/service-terms" className="hover:text-cyan-300">
+          <Link href="/service-terms" className="hover:text-cyan-300">
             Условия за сервизни услуги
-          </a>
+          </Link>
 
-          <a href="/merchant-info" className="hover:text-cyan-300">
+          <Link href="/merchant-info" className="hover:text-cyan-300">
             Данни за търговеца
-          </a>
-          <a href="/service-warranty" className="hover:text-cyan-300">
+          </Link>
+          <Link href="/service-warranty" className="hover:text-cyan-300">
             Гаранция за сервизни услуги
-          </a>
+          </Link>
         </div>
       </div>
       <div className="text-sm text-slate-500 border-t border-white/10  text-center">

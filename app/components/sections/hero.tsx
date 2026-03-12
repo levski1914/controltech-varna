@@ -14,11 +14,11 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-6 max-w-4xl text-4xl font-semibold leading-tight text-white md:text-6xl">
-            Бърз, модерен и професионален сервиз за лаптопи и компютри.
+            Ремонт на лаптопи и компютри във Варна
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            Диагностика, профилактика, Windows инсталация, SSD upgrade,
+            Диагностика, профилактика, инсталация на Windows, SSD upgrade,
             хардуерни ремонти и ясни цени без излишно увъртане.
           </p>
 
@@ -40,27 +40,21 @@ export default function Hero() {
 
           <div className="mt-12 grid gap-4 sm:grid-cols-3">
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">
-                20 лв / 10.23 €
-              </div>
+              <div className="text-2xl font-semibold text-cyan-300">20 лв</div>
               <div className="mt-1 text-sm text-slate-400">
                 Диагностика без ремонт
               </div>
             </div>
 
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">
-                89 лв / 45.50 €
-              </div>
+              <div className="text-2xl font-semibold text-cyan-300">89 лв</div>
               <div className="mt-1 text-sm text-slate-400">
                 Пакет „Компютърът ми е бавен“
               </div>
             </div>
 
             <div className="section-card p-4">
-              <div className="text-2xl font-semibold text-cyan-300">
-                24ч 30 лв / 15.34 €
-              </div>
+              <div className="text-2xl font-semibold text-cyan-300">24ч</div>
               <div className="mt-1 text-sm text-slate-400">
                 Спешна диагностика
               </div>
@@ -112,8 +106,8 @@ export default function Hero() {
               </div>
 
               <div className="rounded-2xl border border-cyan-400/20 bg-cyan-400/10 p-4 text-sm leading-7 text-cyan-100">
-                Подходът тук не е “евтин сервизен сайт”, а силен технологичен
-                бранд с доверие, ясни услуги и модерна визия.
+                Компютърен сервиз с фокус върху ясна диагностика, коректно
+                обслужване и реална стойност за клиента.
               </div>
             </div>
           </div>

@@ -50,10 +50,13 @@ const metadata = {
         "профилактика лаптоп Варна",
         "SSD upgrade Варна"
     ],
+    verification: {
+        google: "pc-USx5RpkDZ1Esm91fiynBX75ANQZPre4pwsItPGHg"
+    },
     openGraph: {
         title: "ControlTech Varna | Компютърен сервиз във Варна",
         description: "Диагностика, профилактика, Windows, SSD upgrade и сервизни услуги за лаптопи и компютри във Варна.",
-        url: "https://controltech.bg",
+        url: "https://controltech-varna.netlify.app/",
         siteName: "ControlTech Varna",
         locale: "bg_BG",
         type: "website"
@@ -67,12 +70,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 38,
+            lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 37,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }

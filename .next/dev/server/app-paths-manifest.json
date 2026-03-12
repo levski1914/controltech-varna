@@ -1,9 +1,12 @@
 {
-  "/(legal)/cookies/page": "app/(legal)/cookies/page.js",
   "/(legal)/merchant-info/page": "app/(legal)/merchant-info/page.js",
-  "/(legal)/privacy/page": "app/(legal)/privacy/page.js",
-  "/(legal)/service-terms/page": "app/(legal)/service-terms/page.js",
-  "/(legal)/service-warranty/page": "app/(legal)/service-warranty/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/cookies/page": "app/cookies/page.js",
+  "/merchant-info/page": "app/merchant-info/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/profilaktika-laptop-varna/page": "app/profilaktika-laptop-varna/page.js",
+  "/remont-na-kompyutri-varna/page": "app/remont-na-kompyutri-varna/page.js",
+  "/remont-na-laptopi-varna/page": "app/remont-na-laptopi-varna/page.js",
+  "/service-terms/page": "app/service-terms/page.js",
+  "/windows-instalaciya-varna/page": "app/windows-instalaciya-varna/page.js"
 }

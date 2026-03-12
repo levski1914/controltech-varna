@@ -7,21 +7,21 @@ import Contact from "@/app/components/sections/contact";
 import Footer from "@/app/components/layout/footer";
 import Image from "next/image";
 import FloatingContact from "@/app/components/ui/floating-contact";
+import HomeSeoText from "./components/sections/home-seo-text";
 
 export default function Home() {
   return (
     <>
-    
-    <Navbar />
-        <main>
-          <Hero />
-          <Services />
-          <Pricing />
-          <About />
-          <Contact />
-        </main>
-        <Footer />
-         <FloatingContact />
+      <main>
+        <Hero />
+        <Services />
+        <HomeSeoText />
+        <Pricing />
+        <About />
+        <Contact />
+      </main>
+
+      <FloatingContact />
     </>
   );
 }
